@@ -88,9 +88,9 @@ document.addEventListener('DOMContentLoaded', function () {
         list.addEventListener("click", function () {
             list.style.color = colors[Math.floor(Math.random() * colors.length)];
         })
-        // list.addEventListener("dblclick", function () {
-        //    list.removeChild(list.lastElementChild);
-        // })
+        list.addEventListener("dblclick", function () {
+            this.remove();
+        })
     }
 
 
