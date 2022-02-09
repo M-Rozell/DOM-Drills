@@ -21,6 +21,10 @@
 .h6 {
     color: yellow;
 }
-.h1,.h2,.h3,.h4,.h5,.h6:hover {
+.h1,.h2,.h3,.h4,.h5,.h6,.btn, li:hover {
     cursor: pointer;
+}
+
+.btn {
+    background-color: rgb(11, 245, 11);
 }
